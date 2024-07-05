@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mediciacl</title>
+    <link rel="stylesheet" href="./medicial.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./responcive.css">
+    
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar1">
+             <div class="navbar-left">
+                <a href="#">Aboute</a>
+                <a href="#">Doctor</a>
+                <a href="#">Contact</a>
+                <a href="#">FAQ</a>
+             </div>
+             <div class="navbar-righte">
+                <a href="#"><i class="fa fa-phone" style="color: blue; font-size: 25px;"></i> +880 1234 56789</a>
+                <a href="#"><i class="fa fa-envelope" style="color: blue; font-size: 25px;"></i> support@yourmail.com</a>
+             </div>
+            </nav>
+
+            <hr>
+
+            <nav class="navbar2">
+                <div class="responcive-section">
+                     <img src="./img/logo.png" alt="">
+                     <i  class="fa fa-bars bars" aria-hidden="true" onclick="openNav()"></i>
+                 </div>
+               
+                <div class="navbar-list" id="slideNav">
+                    <ul>
+                        <i class="fa fa-times" aria-hidden="true" onclick="closeNav()" style="color:rgb(255, 101, 101); font-size: 1.5rem; margin-left: 1rem; cursor: pointer; display: none;"></i>
+                        <li>Home </li>
+                        <li><i class="fa fa-chevron-down"></i> Doctor</li>
+                        <li>Services</li>
+                        <li> <i class="fa fa-chevron-down"></i> Pages</li>
+                        <li>Blogs</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </div>
+                <div>
+                    <button>Book Apoitment</button>
+                </div>
+            </nav>
+ 
+            <section class="myslide">
+                <section class="aboute-manager fade" style="background: url(./img/slider.jpg); background-size: cover;">
+                   
+                    <div>
+                        <h3>Find the Right <p style="display: inline; color: blue;">doctor</p> <br> Right at you Fingertips</h3>
+                        <p>Lorem ipsum dolor, sit amet <a style="display: inline; color: blue; font-size: 20px;">consectetur</a> adipisicing elit. Nam, id.</p>
+                        <label for="">
+                            Resume search :
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi excepturi labore sint.<li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, sequi.</li>
+                            </ul>
+                        </label>
+                    </div>
+                    <i class="fa fa-angle-left prevv   fa-border" aria-hidden="true" onclick="plusSlides(1)"></i>
+                    <i class="fa fa-angle-right nextt  fa-border" aria-hidden="true" onclick="plusSlides(-1)"></i>
+                </section>
+
+                <section class="aboute-manager fade" style="background: url(./img/slider2.jpg); background-size: cover;">
+                  
+                    <div>
+                        <h3>Find the Right <p style="display: inline; color: blue;">doctor</p> <br> Right at you Fingertips</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, dignissimos! <a style="display: inline; color: blue; font-size: 20px;">consectetur</a> adipisicing elit. Nam, id.</p>
+                        <label for="">
+                            Resume search :
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                            </ul>
+                        </label>
+                    </div>
+
+                    <i class="fa fa-angle-left prevv   fa-border" aria-hidden="true" onclick="plusSlides(1)"></i>
+                    <i class="fa fa-angle-right nextt  fa-border" aria-hidden="true" onclick="plusSlides(-1)"></i>
+                </section>
+
+                <section class="aboute-manager fade" style="background: url(./img/slider3.jpg); background-size: cover;">
+                   
+                    <div>
+                        <h3>Find the Right <p style="display: inline; color: blue;">doctor</p> <br> Right at you Fingertips</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur.<a style="display: inline; color: blue; font-size: 20px;">consectetur</a> adipisicing elit. Nam, id.</p>
+                        <label for="">
+                            Resume search :
+                            <ul>
+                                <li>Lorem ipsum dolor sit amet.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                                <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi excepturi labore sint.<li>
+                                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, sequi.</li>
+                                <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                                <li>Lorem ipsum dolor sit.</li>
+                            </ul>
+                        </label>
+                    </div>
+                    <i class="fa fa-angle-left prevv  fa-border" aria-hidden="true" onclick="plusSlides(1)"></i>
+                    <i class="fa fa-angle-right nextt  fa-border" aria-hidden="true" onclick="plusSlides(-1)"></i>
+                </section>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                  </div>
+            </section>
+
+        </header>
+
+        <main>
+            <section class="cards data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div class="card">
+                    <p>Lorem Amet</p>
+                    <h1>Emergency Cases</h1>
+                    <p>Lorem ipsum sit amet consectetur <br> adipiscing elit. Vivamus et erat in lacus <br> convallis sodales.</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+                <div class="card">
+                    <p>Fusce Porttitor</p>
+                    <h1>Doctors Timetable</h1>
+                    <p>Lorem ipsum sit amet consectetur <br> adipiscing elit. Vivamus et erat in lacus <br> convallis sodales.</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+                <div class="card">
+                    <p>Donec luctus</p>
+                    <h1>Opening Hours</h1>
+                    <p>Lorem ipsum sit amet consectetur <br> adipiscing elit. Vivamus et erat in lacus <br> convallis sodales.</p>
+                    <a href="#">LEARN MORE</a>
+                </div>
+            </section>
+
+            <section class="maneger-hospital" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <div>
+                    <h1>We Provide <p style="display: inline; color: blue;">Mediciacl </p> Services <br> That you can  <p style="display: inline; color: blue;">Trust! </p></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus? <br> Lorem ipsum dolor sit amet consectetur.</p>
+                   
+                    <div class="maneger-hospital-button">
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, dignissimos.</p>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, dignissimos.</p>
+                    </div>
+                </div>
+              
+                <div> <img src="./img/contact-img.png" alt="" width="450px" height="350px"> </div>
+              </section>
+
+            <section class="help" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
+                <h1>We Are Always Ready To Help You & <br> Your Family</h1>
+                <img src="./img/section-img.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. <br> pretiumts</p>
+                <div>
+                    <div>
+                        <i class="fa fa-ambulance fa-border" aria-hidden="true"></i>
+                        <h2>Emergency Help</h2>
+                        <p> Lorem ipsum sit, consectetur adipiscing <br> elit. Maecenas mi quam vulputate.</p>
+                    </div>
+
+                    <div>
+                        <i class="fa fa-heartbeat fa-border" aria-hidden="true"></i>
+                        <h2>Emergency Help</h2>
+                        <p> Lorem ipsum sit, consectetur adipiscing <br> elit. Maecenas mi quam vulputate.</p>
+                    </div>
+
+                    <div>
+                       <i class="fa fa-stethoscope fa-border" aria-hidden="true"></i>
+                        <h2>Emergency Help</h2>
+                        <p> Lorem ipsum sit, consectetur adipiscing <br> elit. Maecenas mi quam vulputate.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="aboute-hospital" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
+                <div>
+                    <i class="fa fa-home fa-border"></i>
+                    <p> 3468 <br> Hospital room</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-user fa-border"></i> 
+                    <p>557 <br> Specialist Doctors</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-smile-o fa-border"></i>
+                    <p> 4379 <br> Happy Patients</p>
+                </div>
+
+                <div>
+                    <i class="fa fa-table fa-border"></i>
+                    <p>32  Years of Experience</p>
+                </div>
+            </section>
+
+            <section class="myslide2" data-aos="fade-up" data-aos-anchor-placement="top-bottom" >
+                <h2>Meet our Spcialist</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit  Numquam <br> pretiumts</p>
+                
+                <!-- slide 1 -->
+                <div class="abute-doctors fade">
+                    <div class="infomation-doctor">
+                        <div>
+                            <img src="./doctor img/doctor5.jfif" alt="" width="180" height="150">
+                            <h3> David Smith</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/doctor.jfif" alt="" width="180" height="150">
+                            <h3> Margaret Smith</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        
+                        <div>
+                            <img src="./doctor img/doctor6.jfif"alt="" width="180" height="150">
+                            <h3>John Smith</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/doctor8.jfif" alt="" width="180" height="150">
+                            <h3>Michael Smith</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+                    <div class="infomation-doctor">
+                        <div>
+                            <img src="./doctor img/about-img.jpg" alt="" width="180" height="150">
+                            <h3>David Williams</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/mission-img.jpg" alt="" width="180" height="150">
+                            <h3>Paul Smith</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/doctor2.jfif"alt="" width="180" height="150">
+                            <h3> Andrew Smith</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/doctor3.jfif" alt="" width="180" height="150">
+                            <h3> David Brown</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+
+                    </div>
+                    <div class="icons-slid2">
+                        <a style="font: 30px;" class="prev" onclick="plusSlides2(-1)">pre</a>
+                        <h1>1</h1>
+                        <a style="font: 30px;" class="next" onclick="plusSlides2(1)">next</a>
+                    </div>
+                </div>
+                <!-- slide2 -->
+                <div class="abute-doctors fade">
+
+                    <div class="infomation-doctor">
+                        <div>
+                            <img src="./doctor img/about-img.jpg" alt="" width="180" height="150">
+                            <h3>Patricia Smith
+                            </h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/mission-img.jpg" alt="" width="180" height="150">
+                            <h3>Sarah Smith </h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/doctor2.jfif"alt="" width="180" height="150">
+                            <h3>Elizabeth Smith </h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/doctor3.jfif" alt="" width="180" height="150">
+                            <h3>Christine Smith
+
+                            </h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+
+
+                    <div class="infomation-doctor">
+                        <div>
+                            <img src="./doctor img/doctor5.jfif" alt="" width="180" height="150">
+                            <h3> Peter Smith</h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/doctor.jfif" alt="" width="180" height="150">
+                            <h3>Susan Smith
+                            </h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        
+                        <div>
+                            <img src="./doctor img/doctor6.jfif"alt="" width="180" height="150">
+                            <h3>Margaret Smith
+                            </h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                        <div>
+                            <img src="./doctor img/doctor8.jfif" alt="" width="180" height="150">
+                            <h3>Susan Jones
+                            </h3>
+                            <p>Lorem ipsum dolor sit.</p>
+                        </div>
+                    </div>
+
+                    <div class="icons-slid2">
+                        <a style="font: 30px;" class="prev" onclick="plusSlides2(-1)">pre</a>
+                        <h1>2</h1>
+                        <a style="font: 30px;" class="next" onclick="plusSlides2(1)">next</a>
+                    </div>
+                </div>
+               <!-- slide3 -->
+               <div class="abute-doctors fade">
+                    <div>
+                        <div class="infomation-doctor">
+                            <div>
+                                <img src="./doctor img/doctor6.jfif"alt="" width="180" height="150">
+                                <h3>Louise gostav</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            <div>
+                                <img src="./doctor img/doctor5.jfif" alt="" width="180" height="150">
+                                <h3>Gabriel jad</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            
+                            <div>
+                                <img src="./doctor img/doctor.jfif" alt="" width="180" height="150">
+                                <h3>Léo islo</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            <div>
+                                <img src="./doctor img/doctor8.jfif" alt="" width="180" height="150">
+                                <h3>Raphaë tores</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                        <div class="infomation-doctor">
+                            <div>
+                                <img src="./doctor img/mission-img.jpg" alt="" width="180" height="150">
+                                <h3>gonzalo monta</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            <div>
+                                <img src="./doctor img/about-img.jpg" alt="" width="180" height="150">
+                                <h3>jordi alba</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            <div>
+                                <img src="./doctor img/doctor3.jfif" alt="" width="180" height="150">
+                                <h3>hernan glich</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                            <div>
+                                <img src="./doctor img/doctor2.jfif"alt="" width="180" height="150">
+                                <h3>sator ga</h3>
+                                <p>Lorem ipsum dolor sit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div  class="icons-slid2">
+                        <a style="font: 30px;" class="prev" onclick="plusSlides2(-1)">pre</a>
+                        <h1>3</h1>
+                        <a style="font: 30px;" class="next" onclick="plusSlides2(1)">next</a>
+                    </div>
+                </div>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide2(1)"></span>
+                    <span class="dot" onclick="currentSlide2(2)"></span>
+                    <span class="dot" onclick="currentSlide2(3)"></span>
+                  </div>
+            </section>
+
+            <section class="emergency"  data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div>
+                    <h1>Do you need Emergency Medical <br> Care? Call @ 1234 56789</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque porttitor <br> dictum turpis nec gravida.</p>
+                </div>
+                <div>
+                    <button>Contact me</button>
+                    <button>Learn more!</button>
+                </div>
+            </section>
+
+            <section class="video" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <h2> We Offer Different Services To <br> Improve Your Health</h2>
+                <img src="./img/section-img.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. <br> pretiumts</p>
+                <div class="about-video">
+                    <div>
+                        <h3>Who We Are</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas <br> pharetra antege vel est lobortis, a commodo magna rhoncus. In quis nisi non emet <br> quam pharetra commodo.</p>
+                        
+                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per <br> inceptos himenaeos.</p>
+
+                          <div class="ul-item">
+                              <ul>
+                                  <li> <i class="fa fa-caret-right  fa-border carets"></i> Maecenas vitae luctus nibh.</li>
+                                  <li> <i class="fa fa-caret-right  fa-border carets"></i> Duis massa massa.</li>
+                                  <li> <i class="fa fa-caret-right  fa-border carets"></i> Aliquam feugiat interdum.</li>
+                              </ul>
+
+                              <ul>
+                                
+                                  <li> <i class="fa fa-caret-right  fa-border carets"></i> Maecenas vitae luctus nibh.</li>
+                                  <li> <i class="fa fa-caret-right  fa-border carets"></i> Duis massa massa.</li>
+                                 <li> <i class="fa fa-caret-right  fa-border carets" ></i> Aliquam feugiat interdum.</li>
+                              </ul>
+                          </div>
+                    </div>
+                    <div>
+                        <video width="480" height="370" controls style="margin-left: 12rem; margin-top: 3rem;">
+                        <source src="./img/video-bg.jpg" >
+                    </video>
+                </div>
+                </div>
+            </section>
+
+            <section class="services" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+
+            <div class="about-services">
+                    <h1>We Offer Different Services To <br> Improve Your Health </h1>
+                        <img src="./img/section-img.png" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. <br> pretiumts</p>
+             </div>
+
+             <div class="all-services">
+                <div class="servic-logo">
+                    <div><i class="fa fa-calendar" aria-hidden="true"></i></div>
+                    <div class="servic-name">
+                        <h1>General Treatment</h1>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Donec  <br>luctus dictum eros ut imperdiet.</p>
+                    </div>
+                </div>
+
+                <div class="servic-logo">
+                    <div><i class="fa fa-medkit" aria-hidden="true"></i></div>
+                  <div class="servic-name">
+                    <h1>General Treatment</h1>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Donec <br> luctus dictum eros ut imperdiet.</p>
+                  </div>
+                </div>
+
+                <div class="servic-logo">
+                    <div><i class="fa fa-heart" aria-hidden="true"></i></i></div>
+                     <div class="servic-name">
+                        <h1>Heart Surgery</h1>
+                        <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Donec <br> luctus dictum eros ut imperdiet.</p>
+                     </div>
+                </div>
+
+                <div class="servic-logo">
+                    <div><i class="fa fa-user-md" aria-hidden="true"></i></i></div>
+                    <div class="servic-name">
+                        <h1>General Treatment</h1>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Donec <br> luctus dictum eros ut imperdiet.</p>
+                    </div>
+                </div>
+
+                <div class="servic-logo">
+                    <div><i class="fa fa-stethoscope" aria-hidden="true"></i></div>
+                    <div class="servic-name">
+                        <h1>General Treatment</h1>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Donec <br> luctus dictum eros ut imperdiet.</p>
+                    </div>
+                </div>
+
+                <div class="servic-logo">
+                    <div><i class="fa fa-plus-square" aria-hidden="true"></i></div>
+                    <div class="servic-name">
+                        <h1>General Treatment</h1>
+                    <p>Lorem ipsum dolor sit amet, <br> consectetur adipiscing elit. Donec <br> luctus dictum eros ut imperdiet.</p>
+                    </div>
+                </div>
+             </div>
+            </section>
+
+           <section class="services-card">
+
+              <div>
+                <h1>We Provide You The Best Treatment <br> In Resonable Price</h1>
+                <img src="./img/section-img.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. <br> pretiumts</p>
+              </div>
+
+            <section class="services-price">
+                <div class="card">
+                    <i class="fa fa-scissors" aria-hidden="true"></i>
+                    <h2>Plastic Suggery</h2>
+                    <h1>$199</h1>
+                    <ul>
+                        <li>Lorem Ipsum Dolor Sit <i class="fa fa-check" aria-hidden="true"></i></i> </li>
+                        <li>Cubitur Sollicitudin Fentum <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Nullam Interdum Enim <i class="fa fa-times" aria-hidden="true"></i> </li>
+                        <li>Donec Ultricies Metus <i class="fa fa-times" aria-hidden="true"></i></li>
+                        <li>Pellentesque Eget Nibh <i class="fa fa-times" aria-hidden="true"></i></li>
+                    </ul>
+                    <button>Book Now</button>
+                </div>
+
+                <div class="card">
+                    <i class="fa fa-stethoscope" aria-hidden="true"></i>
+                    <h2>Teeth Whitening</h2>
+                    <h1>$299</h1>
+                    <ul>
+                        <li>Lorem Ipsum Dolor Sit <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Cubitur Sollicitudin Fentum <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Nullam Interdum Enim <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Donec Ultricies Metus <i class="fa fa-times" aria-hidden="true"></i></li>
+                        <li>Pellentesque Eget Nibh <i class="fa fa-times" aria-hidden="true"></i></li>
+                    </ul>
+                    <button>Book Now</button>
+                </div>
+
+                <div class="card">
+                    <i class="fa fa-heartbeat" aria-hidden="true"></i>
+                    <h2>Heart Suggery</h2>
+                    <h1>$399</h1>
+                    <ul>
+                        <li>Lorem Ipsum Dolor Sit <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Cubitur Sollicitudin Fentum <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Nullam Interdum Enim <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Donec Ultricies Metus <i class="fa fa-check" aria-hidden="true"></i></li>
+                        <li>Pellentesque Eget Nibh <i class="fa fa-check" aria-hidden="true"></i></li>
+                    </ul>
+                    <button>Book Now</button>
+                </div>
+            </section>
+           </section>
+
+           <section class="doctor-team" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+          <div>
+            <h1>Keep Up With Our Most Recent <br> Medical News.</h1>
+            <img src="./img/section-img.png" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. <br> pretiumts</p>
+          </div>
+
+          <section>
+            <div class="blog">
+                <img src="./img/blog1.jpg" alt="">
+                <h5>22 Aug, 2020</h5>
+                <h3>We have annnocuced our new <br> product.</h3>
+                <p>Lorem Ipsum Dolor A Sit Ameti, Consectetur <br> Adipisicing Elit, Sed Do Eiusmod Tempor <br> Incididunt Sed Do Incididunt Sed.</p>
+            </div>
+
+            <div class="blog">
+                <img src="./img/blog2.jpg" alt="">
+                <h5>22 Aug, 2020</h5>
+                <h3>We have annnocuced our new <br> product.</h3>
+                <p>Lorem Ipsum Dolor A Sit Ameti, Consectetur <br> Adipisicing Elit, Sed Do Eiusmod Tempor <br> Incididunt Sed Do Incididunt Sed.</p>
+            </div>
+
+            <div class="blog">
+                <img src="./img/blog3.jpg" alt="">
+                <h5>22 Aug, 2020</h5>
+                <h3>We have annnocuced our new <br> product.</h3>
+                <p>Lorem Ipsum Dolor A Sit Ameti, Consectetur <br> Adipisicing Elit, Sed Do Eiusmod Tempor <br> Incididunt Sed Do Incididunt Sed.</p>
+            </div>
+          </section>
+           </section>
+
+           <section class="medicial-logo" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div><img src="./img/client1.png" alt=""></div>
+            <div><img src="./img/client2.png" alt=""></div>
+            <div><img src="./img/client3.png" alt=""></div>
+            <div><img src="./img/client4.png" alt=""></div>
+            <div><img src="./img/client5.png" alt=""></div>
+           </section>
+
+           <section class="signin" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+            <div>
+                <h1>Keep Up With Our Most Recent <br> Medical News.</h1>
+                <img src="./img/section-img.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit praesent aliquet. <br> pretiumts</p>
+              </div>
+            <div class="sign-inputs">
+                <form>
+                    <div>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div>
+                        <input type="number" placeholder="Phone">
+                        <select required>
+                            <option>Dempartment</option>
+                            <option>Sardical clinick</option>
+                            <option>Dentistry</option>
+                            <option>Gastroenerology</option>
+                        </select>
+                    </div>
+    
+                    <div>
+                        <select required>
+                            <option>Doctor</option>
+                            <option>Dr amir sabri</option>
+                            <option>Dr mehdi hoseini</option>
+                            <option>Dr leo messi</option>
+                            <option>Dr majid samii</option>
+                        </select>
+                        <input type="date" placeholder="Date">
+                    </div>
+                    <textarea name="" id=""></textarea>
+                    <button>Book An Inpointment</button>
+    
+                  </form>
+                  <img src="./img/contact-img.png" alt="" width="500px" height="430px">
+            </div>
+           </section>
+        </main>
+
+
+
+         <footer>
+            <div class="h-footer" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div>
+                    <h2>Abute Use</h2>
+                    <p>Lorem ipsum dolor sit am  <br>consectetur adipisicing elit do <br>eiusmod tempor incididunt ut <br> labore dolore magna.</p>
+                    <div class="footer-icon">
+                        <i class="fa fa-facebook fa-border" aria-hidden="true"></i>
+                        <i class="fa fa-google-plus fa-border" aria-hidden="true"></i>
+                        <i class="fa fa-telegram fa-border" aria-hidden="true"></i>
+                        <i class="fa fa-vimeo-square fa-border" aria-hidden="true"></i>
+                        <i class="fa fa-pinterest-p fa-border" aria-hidden="true"></i>
+                    </div>
+                </div>
+            
+             <div class="quick-links">
+                    <h2>Quick Links</h2>
+              <div >
+                <ul>
+                    <li> <i class="fa fa-caret-right "></i> Home</li>
+                    <li> <i class="fa fa-caret-right "></i> About Us</li>
+                    <li>  <i class="fa fa-caret-right"></i> Other Links</li>
+                    <li> <i class="fa fa-caret-right "></i> Services</li>
+                    <li><i class="fa fa-caret-right"></i> Our Cases</li>
+                </ul>
+                <ul>
+                    <li> <i class="fa fa-caret-right  "></i>Consuling</li>
+                    <li> <i class="fa fa-caret-right "></i> Finance</li>
+                    <li> <i class="fa fa-caret-right "></i>Testimonials</li>
+                    <li> <i class="fa fa-caret-right "></i> FAQ</li>
+                    <li> <i class="fa fa-caret-right "></i> Contact Use</li>
+                </ul>
+              </div>
+             </div>
+            
+                <div>
+                    <h2>Open Hours</h2>
+                    <p>Lorem ipsum dolor sit am  <br>consectetur adipisicing elit <br> do eiusmod tempor incididunt</p>
+                    
+                    
+                        <div class="open-hours">
+                            <p>Monday - Fridayp</p>
+                            <p>8.00-20.00</p>
+                        </div>
+
+                        <div class="open-hours">
+                            <p>Saturday</p>
+                            <p>9.00-18.30</p>
+                        </div>
+
+                        <div class="open-hours">
+                            <p>Monday-Thusday</p>
+                            <p>9.00-15.00</p>
+                        </div>
+                    
+                    
+                </div>
+            
+                <div class="newsletter">
+                    <h2>Newsletter</h2>
+                    <p>subscribe to our newsletter to get  <br> allour news in your inbox.. Lorem <br>  ipsum dolor sit amet, consectetur <br> adipisicing elit,</p>
+                    <input type="email" placeholder="Send Email">
+                </div>
+            </div>
+
+            <div class="f-footer">
+             © Copyright 2018 | All Rights Reserved by wpthemesgrid.com
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="./medicial.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+  </script>
+</html>

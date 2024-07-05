@@ -1,0 +1,375 @@
+@media screen and (max-width:1150px){
+    .about-video p , h3{
+        margin-left: 2rem;
+    }
+
+    
+    .doctor-team  section {
+        justify-content: space-between;
+        padding-left: 2rem;
+    }
+    .medicial-logo{
+        justify-content: space-between;
+    }
+
+    .quick-links div{
+        gap: 1rem;
+    }
+
+    .aboute-manager > div > h3 {
+        font-size: 2rem;
+    }
+    
+    
+    .aboute-manager > div > p{
+        font-size: 1rem;
+    }
+    
+    .aboute-manager > div > label{
+        font-size: 1.3rem;
+    }
+    
+    .aboute-manager > div > label > ul{
+        font-size: 1rem;
+    }
+    
+}
+
+
+
+@media screen and (max-width:1000px){
+
+    .navbar-left{
+        width: 30%;
+    }
+
+    .navbar2 > div button{
+        display: none;
+    }
+
+    .maneger-hospital > div  h1 , p{
+        padding-left: 2rem;
+    }
+
+    .maneger-hospital> div img{
+        width: 350px;
+        height: 300px;
+    }
+
+    main .cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 2rem;
+    }
+
+    main .help > div{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    main .help > div  i{
+        margin-top: 2rem;
+    }
+
+    main .aboute-hospital{
+        margin-top: 50rem;
+    }
+
+    main .infomation-doctor{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    main .video .about-video{
+        flex-direction: column;
+    }
+
+    .services .all-services{
+        grid-template-columns: repeat(2,1fr);
+       
+    }
+
+    .services-price{
+        grid-template-columns: repeat(1,1fr);
+        width: 60%;
+    }
+
+    .doctor-team  section {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        padding-right: 2rem;
+    }
+
+    .medicial-logo{
+        display: none;
+    }
+
+    .sign-inputs{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .sign-inputs > img{
+        display: none;
+    }
+
+    footer .h-footer{
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        text-align: center;
+    }
+
+    .h-footer h2{
+        margin-bottom: 1rem;
+        text-align: center;
+        border-bottom: none;
+        width: auto;
+    }
+
+    .quick-links div{
+        justify-content: center;
+    }
+
+    .open-hours{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .aboute-manager .nextt{
+        left: 93%;
+    }
+
+}
+
+@media screen and (max-width:750px){
+
+
+    header > .navbar1{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .navbar-left{
+        width: 65%;
+        justify-content: space-evenly;
+        margin-bottom: 2rem;
+    }
+
+    header .navbar2 div >i{
+        display: block;
+        margin-right: 3rem;
+    }
+
+    /* header .navbar2 div >i:hover .navbar-list ul {
+        display: block;
+    } */
+    
+
+    .responcive-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .responcive-section > img{
+        margin-left: 3rem;
+    }
+
+    header > .navbar2{
+        flex-direction: column;
+    }
+
+    .navbar2 > .navbar-list ul{
+        flex-direction: column;
+        display: none;
+    }
+
+    .navbar2 > .navbar-list ul > li{
+        padding: 1rem;
+    }
+
+    .maneger-hospital > div {
+       justify-content: center;
+    }
+    .maneger-hospital-button{
+        display: none;
+    }
+
+    .maneger-hospital> div img{
+        display: none;
+    }
+
+    main .cards{
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        margin-left: 25%;
+        gap: 2rem;
+    }
+
+    main .aboute-hospital{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        height: 25rem;
+    }
+
+    .services .all-services {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .doctor-team  section{
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        align-items: center ;
+        gap: 1rem;
+    }
+
+    footer .h-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 3rem;
+        margin-left: 5rem;
+    }
+
+    .h-footer h2{
+        border-bottom: 5px solid white;
+        width: fit-content;
+
+        }
+
+        .aboute-manager > div > h3 {
+            font-size: 1.5rem;
+        }
+        
+        
+        .aboute-manager > div > p{
+            font-size: 0.8rem;
+        }
+        
+        .aboute-manager > div > label{
+            font-size: 1rem;
+        }
+        
+        .aboute-manager > div > label > ul{
+            font-size: 0.8rem;
+        }
+
+        .aboute-manager .nextt{
+            left: 90%;
+        }
+}
+
+@media screen and (max-width:650px){
+      main .aboute-hospital{
+        margin-top: 55rem;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+       main .cards{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%;
+            margin: 0;
+    }
+
+     .emergency div h1{
+        font-size: 1.9rem;
+    }
+
+    .emergency div p{
+        font-size: 15px;
+    }
+
+    form input{
+        width: 13rem;
+        height: 2.5rem;
+    }
+
+    .sign-inputs div{
+        display:flex;
+        flex-direction: column;
+    }
+
+    video{
+      width: 200px;
+      height: 110px;
+    }
+}
+
+@media screen and (max-width:500px){
+    .navbar-righte , .navbar-left  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.7rem;
+    }
+
+    .navbar-left >a {
+        text-align: center;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 1rem;
+        color: white;
+        background-color: black;
+        transition: 0.5s;
+    }
+    .navbar-left >a:hover{
+        background-color: white;
+       color: blue;
+    cursor: pointer;
+    }
+
+    main .help >h1{
+       font-size: 1.4rem;
+    }
+
+    main .infomation-doctor{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .emergency div h1{
+        font-size: 1.4rem;
+    }
+
+    .emergency div p{
+        font-size: 14px;
+    }
+
+    .emergency div >button{
+        margin-top: 1rem;
+    }
+
+    .video > h2{
+        font-size: 1.5rem;
+    }
+
+    .video > p{
+        font-size: 1rem;
+    }
+
+    main .video .about-video{
+        flex-wrap: wrap;
+    }
+
+    .about-video  h3 , .about-video  p {
+          margin-left: 1rem;
+    }
+
+    .ul-item{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 2rem;
+    }
+
+    .services-price{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .f-footer{
+        text-align: center;
+    }
+}
