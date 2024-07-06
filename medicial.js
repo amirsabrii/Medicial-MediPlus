@@ -62,7 +62,7 @@ slides[slideIndex-1].style.display = "block";
 dots[slideIndex-1].className += " active";
 }
 
-//  opennav
+//  openNav
 
 function openNav() {
 document.querySelector(".navbar-list ul").style.display = "block";
